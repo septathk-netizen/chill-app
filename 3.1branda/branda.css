@@ -1,0 +1,192 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+ *  {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+ }
+.branda {
+    background-color: #181A1C;
+    max-width: 1440px;
+    min-height: 100vh;
+    width: 100%;
+    margin:  auto;
+    background-position: center;
+    position: relative;
+
+}
+
+/* header*/
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+
+
+.buton {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+header button {
+        background-color: #181A1C;
+        color: #FFFFFF;
+
+}
+
+.buton button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: inherit; 
+    color: #FFFFFF; 
+}
+.display {
+    display: flex;
+    gap: 10px;
+}
+ 
+header img {
+justify-content: flex-end;
+padding: 40px;
+
+}
+/* ini layout tulisan di tengah gambar*/
+.awal {
+    position: relative;
+    display: inline-block;
+}
+
+.awal .master {
+    display: block;
+    width: 100%;
+}
+
+.awal > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFFFFF; 
+    margin-left: -600px;
+}
+
+.analog {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    gap: 20px;   
+    width: 1250px;
+    margin-top: 30px;
+}
+.analog img {
+    position: relative;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.analog button {
+    background-color: #0F1E93;
+    color: #FFFFFF;
+    padding: 10px 26px ;
+    border-radius: 48px;
+
+}
+.silent {
+    position: absolute;
+    left: 800px;
+    
+}
+
+
+.analog i {
+    color: #FFFFFF;
+}
+
+/* area fillm*/
+
+.filmbody {
+    margin-bottom: 50px;
+
+}
+.film button {
+    padding-left: 10px;  /* Jarak dalam ke kiri */
+  padding-right: 10px;
+  background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.film h2 {
+    display: flex;
+    color: #FFFFFF;
+    height: 35px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    
+}
+
+
+.film {
+    text-align: center;
+}
+
+
+/* area footer*/
+.batas{
+    display: flex;
+    border-bottom: 1px solid #E7E3FC3B;
+    margin: 90px 0px 0px 0px;
+}
+
+
+
+footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 164px;
+    margin: 50px 100px 0px 100px;
+}
+
+
+footer button {
+    flex-direction: column;
+    display: flex;
+}
+
+footer button  {
+        background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: inherit; 
+    color: #C1C2C4; 
+
+}
+footer h3 {
+    color: #FFFFFF;
+}
+
+
+.footer-column {
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+    
+
