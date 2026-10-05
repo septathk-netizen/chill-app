@@ -188,5 +188,31 @@ display: flex;
     gap: 1px;
 }
 
-    
+@media (min-width: 360px) {
+    header {
+        zoom: 55%;
+    }
+    .awal {
+        zoom: 30%;
+    }
+    .film {
+        zoom: 30%;
+    }
+    footer {
+        zoom: 30%;
+    }
+    .filmbody button {
+        flex-wrap: nowrap;
+            zoom: 90%;
+            display: inline-block;
+            flex: 0 0 80%;
+            /* KUNCI UTAMA: Mencegah item menyusut/gepeng */
+            flex-shrink: 0;
+            /* Memastikan ukuran item tidak mengecil */
+            scroll-snap-align: start;
 
+    }
+
+    
+        
+}
